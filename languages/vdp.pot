@@ -1,0 +1,716 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2021-08-02 07:51+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: verified-downloads.php:39
+msgid "I agree with the {Terms and Conditions}"
+msgstr ""
+
+#: verified-downloads.php:40
+msgid "You must agree with the Terms and Conditions."
+msgstr ""
+
+#: verified-downloads.php:249
+msgid ""
+"Download link lifetime must be a valid integer value in range [1...7200]."
+msgstr ""
+
+#: verified-downloads.php:259 verified-downloads.php:261
+msgid "Envato API server response is invalid."
+msgstr ""
+
+#: verified-downloads.php:264
+msgid "Envato API Token can not be empty."
+msgstr ""
+
+#: verified-downloads.php:284 verified-downloads.php:285
+msgid "Files"
+msgstr ""
+
+#: verified-downloads.php:292 verified-downloads.php:293
+msgid "Add File"
+msgstr ""
+
+#: verified-downloads.php:300 verified-downloads.php:301
+#: verified-downloads.php:558
+msgid "Log"
+msgstr ""
+
+#: verified-downloads.php:308 verified-downloads.php:309
+msgid "Blacklist"
+msgstr ""
+
+#: verified-downloads.php:316 verified-downloads.php:317
+msgid "Settings"
+msgstr ""
+
+#: verified-downloads.php:325 verified-downloads.php:326
+#: verified-downloads.php:583
+msgid "How To Use"
+msgstr ""
+
+#: verified-downloads.php:344
+msgid "Verified Downloads - Settings"
+msgstr ""
+
+#: verified-downloads.php:347
+msgid "General Mailing Parameters"
+msgstr ""
+
+#: verified-downloads.php:351
+msgid "Envato API Token"
+msgstr ""
+
+#: verified-downloads.php:356
+#, php-format
+msgid ""
+"Please enter your Envato API Token. Important! Token must have the following "
+"permissions: \"View and search Envato sites\", \"View your Envato Account "
+"username\", \"View your items sales history\" and \"Verify purchases of your "
+"items\". You can generate API Token here: %s"
+msgstr ""
+
+#: verified-downloads.php:362
+msgid "Download link lifetime"
+msgstr ""
+
+#: verified-downloads.php:366
+msgid "hours"
+msgstr ""
+
+#: verified-downloads.php:367
+msgid "Please enter period of download link validity."
+msgstr ""
+
+#: verified-downloads.php:373
+msgid "GDPR-compatibility"
+msgstr ""
+
+#: verified-downloads.php:378
+msgid "Enable checkbox to agree with the Terms & Conditions"
+msgstr ""
+
+#: verified-downloads.php:380
+msgid "Please tick checkbox if you want to add checkbox to the form."
+msgstr ""
+
+#: verified-downloads.php:386
+msgid "Checkbox label"
+msgstr ""
+
+#: verified-downloads.php:391
+msgid ""
+"Enter the label for GDPR checkbox. Wrap your keyword with \"{\" and \"}\" to "
+"link it with Terms & Conditions box. HTML allowed."
+msgstr ""
+
+#: verified-downloads.php:397
+msgid "Terms & Conditions"
+msgstr ""
+
+#: verified-downloads.php:402
+msgid ""
+"Your customers must be agree with Terms & Conditions before paying. Leave "
+"this field blank if you do not need Terms & Conditions box to be shown."
+msgstr ""
+
+#: verified-downloads.php:408
+msgid "Error label"
+msgstr ""
+
+#: verified-downloads.php:413
+msgid ""
+"Enter the error label for GDPR checkbox. It appears when user forgot to tick "
+"GDPR checkbox."
+msgstr ""
+
+#: verified-downloads.php:419
+msgid "Enable X-Sendfile"
+msgstr ""
+
+#: verified-downloads.php:424
+msgid "Download files through X-Sendfile module"
+msgstr ""
+
+#: verified-downloads.php:426
+#, php-format
+msgid ""
+"Use this option to enable X-SendFile mode to download huge files. Please "
+"contact your hosting provider to make sure that %smod_xsendfile%s module "
+"installed on your server. Do not activate this option if %smod_xsendfile%s "
+"module is not installed."
+msgstr ""
+
+#: verified-downloads.php:432
+msgid "Cross-domain calls"
+msgstr ""
+
+#: verified-downloads.php:437
+msgid "Enable cross-domain calls"
+msgstr ""
+
+#: verified-downloads.php:439
+msgid ""
+"Enable this option if you want to use cross-domain embedding, i.e. plugin "
+"installed on domain1, and button is used on domain2."
+msgstr ""
+
+#: verified-downloads.php:451
+msgid "Save Settings"
+msgstr ""
+
+#: verified-downloads.php:462 verified-downloads.php:783
+#: verified-downloads.php:835 verified-downloads.php:950
+#: verified-downloads.php:1163 verified-downloads.php:1253
+#: verified-downloads.php:1305
+msgid "This operation disabled in DEMO mode."
+msgstr ""
+
+#: verified-downloads.php:479
+msgid "Settings successfully saved."
+msgstr ""
+
+#: verified-downloads.php:505
+msgid "Verified Downloads - Files"
+msgstr ""
+
+#: verified-downloads.php:508 verified-downloads.php:1040
+msgid "Search:"
+msgstr ""
+
+#: verified-downloads.php:510 verified-downloads.php:1042
+msgid "Search"
+msgstr ""
+
+#: verified-downloads.php:511 verified-downloads.php:1043
+msgid "Reset search results"
+msgstr ""
+
+#: verified-downloads.php:513 verified-downloads.php:574
+msgid "Create New File"
+msgstr ""
+
+#: verified-downloads.php:517 verified-downloads.php:530
+#: verified-downloads.php:665 verified-downloads.php:680
+#: verified-downloads.php:724 verified-downloads.php:1050 widget.php:43
+msgid "File"
+msgstr ""
+
+#: verified-downloads.php:518 verified-downloads.php:738
+msgid "Available for"
+msgstr ""
+
+#: verified-downloads.php:519 verified-downloads.php:1395
+#: verified-downloads.php:1413
+msgid "Shortcode"
+msgstr ""
+
+#: verified-downloads.php:520 verified-downloads.php:1051
+msgid "Downloads"
+msgstr ""
+
+#: verified-downloads.php:533 verified-downloads.php:700
+msgid "Path"
+msgstr ""
+
+#: verified-downloads.php:537 verified-downloads.php:672
+#: verified-downloads.php:711
+msgid "URL"
+msgstr ""
+
+#: verified-downloads.php:540 verified-downloads.php:669
+msgid "Media Library"
+msgstr ""
+
+#: verified-downloads.php:547 verified-downloads.php:1006
+msgid "Inactive"
+msgstr ""
+
+#: verified-downloads.php:548 verified-downloads.php:743
+msgid "Any Envato Item"
+msgstr ""
+
+#: verified-downloads.php:549
+msgid "Click the icon for more options."
+msgstr ""
+
+#: verified-downloads.php:556
+msgid "Edit"
+msgstr ""
+
+#: verified-downloads.php:557 verified-downloads.php:995
+msgid "Deactivating..."
+msgstr ""
+
+#: verified-downloads.php:557 verified-downloads.php:1004
+msgid "Activating..."
+msgstr ""
+
+#: verified-downloads.php:557 verified-downloads.php:994
+msgid "Deactivate"
+msgstr ""
+
+#: verified-downloads.php:557 verified-downloads.php:1003
+msgid "Activate"
+msgstr ""
+
+#: verified-downloads.php:559 verified-downloads.php:1744
+#: verified-downloads.php:1745
+msgid "Download"
+msgstr ""
+
+#: verified-downloads.php:561 verified-downloads.php:1082
+#: verified-downloads.php:1231
+msgid "Deleting..."
+msgstr ""
+
+#: verified-downloads.php:561 verified-downloads.php:1082
+#: verified-downloads.php:1231
+msgid "Delete"
+msgstr ""
+
+#: verified-downloads.php:570 verified-downloads.php:1091
+msgid "No results found for"
+msgstr ""
+
+#: verified-downloads.php:570 verified-downloads.php:1091
+#: verified-downloads.php:1240
+msgid "List is empty."
+msgstr ""
+
+#: verified-downloads.php:582 verified-downloads.php:1101
+msgid "Close"
+msgstr ""
+
+#: verified-downloads.php:642
+msgid "Verified Downloads - Edit file"
+msgstr ""
+
+#: verified-downloads.php:642
+msgid "Verified Downloads - Add file"
+msgstr ""
+
+#: verified-downloads.php:645
+msgid "Edit file"
+msgstr ""
+
+#: verified-downloads.php:645
+msgid "Add file"
+msgstr ""
+
+#: verified-downloads.php:649
+msgid "Title"
+msgstr ""
+
+#: verified-downloads.php:654
+msgid ""
+"Enter the title of file. If you leave this field blank, then original file "
+"name will be the title."
+msgstr ""
+
+#: verified-downloads.php:660
+msgid "Source"
+msgstr ""
+
+#: verified-downloads.php:666
+msgid "Server Path"
+msgstr ""
+
+#: verified-downloads.php:674
+msgid "Select the source of the file."
+msgstr ""
+
+#: verified-downloads.php:685 verified-downloads.php:814
+msgid "Select available file"
+msgstr ""
+
+#: verified-downloads.php:692
+#, php-format
+msgid "Select any available file from folder %s or upload new file below."
+msgstr ""
+
+#: verified-downloads.php:693
+msgid "Upload File"
+msgstr ""
+
+#: verified-downloads.php:693
+msgid "Uploading..."
+msgstr ""
+
+#: verified-downloads.php:694
+msgid "Choose file to upload."
+msgstr ""
+
+#: verified-downloads.php:705
+msgid "Enter the absolute path to the file on your server."
+msgstr ""
+
+#: verified-downloads.php:716
+msgid ""
+"Enter the URL of the file that you want to sell. This is NOT SECURE source. "
+"Everyone who knows this URL can download file without payment."
+msgstr ""
+
+#: verified-downloads.php:730
+msgid ""
+"Select the file from Media Library. This is NOT SECURE source. Everyone who "
+"knows direct URL can download file without payment."
+msgstr ""
+
+#: verified-downloads.php:752
+msgid ""
+"You can associate the file with any Envato item. It means that this file can "
+"be downloaded only by person who purchased associated item."
+msgstr ""
+
+#: verified-downloads.php:764
+msgid "Submit Details"
+msgstr ""
+
+#: verified-downloads.php:792 verified-downloads.php:810
+msgid "Unable to save uploaded file on server."
+msgstr ""
+
+#: verified-downloads.php:821
+msgid "File successfully uploaded."
+msgstr ""
+
+#: verified-downloads.php:827
+msgid "File was not uploaded properly."
+msgstr ""
+
+#: verified-downloads.php:861
+msgid "Invalid URL."
+msgstr ""
+
+#: verified-downloads.php:866
+msgid "Invalid Media Library file."
+msgstr ""
+
+#: verified-downloads.php:873
+msgid "Media Library file not found."
+msgstr ""
+
+#: verified-downloads.php:878
+msgid "Invalid file."
+msgstr ""
+
+#: verified-downloads.php:883 verified-downloads.php:958
+msgid "File not found."
+msgstr ""
+
+#: verified-downloads.php:888
+msgid "Invalid file path."
+msgstr ""
+
+#: verified-downloads.php:892
+msgid "Path not found."
+msgstr ""
+
+#: verified-downloads.php:896
+msgid "Invalid source."
+msgstr ""
+
+#: verified-downloads.php:934 verified-downloads.php:1289
+msgid "Service is not available"
+msgstr ""
+
+#: verified-downloads.php:940
+msgid "Record successfully saved."
+msgstr ""
+
+#: verified-downloads.php:964
+msgid "File successfully removed."
+msgstr ""
+
+#: verified-downloads.php:984 verified-downloads.php:1379
+msgid "Requested file not found."
+msgstr ""
+
+#: verified-downloads.php:993
+msgid "File successfully activated."
+msgstr ""
+
+#: verified-downloads.php:1002
+msgid "File successfully deactivated."
+msgstr ""
+
+#: verified-downloads.php:1036
+msgid "Verified Downloads - Log"
+msgstr ""
+
+#: verified-downloads.php:1048 verified-downloads.php:1215
+msgid "Purchase Code"
+msgstr ""
+
+#: verified-downloads.php:1049
+msgid "Buyer"
+msgstr ""
+
+#: verified-downloads.php:1052 verified-downloads.php:1216
+msgid "Created"
+msgstr ""
+
+#: verified-downloads.php:1061
+msgid "Expired"
+msgstr ""
+
+#: verified-downloads.php:1064 verified-downloads.php:1151
+msgid "Disabled"
+msgstr ""
+
+#: verified-downloads.php:1065 verified-downloads.php:1149
+msgid "Enabling..."
+msgstr ""
+
+#: verified-downloads.php:1065 verified-downloads.php:1148
+msgid "Enable"
+msgstr ""
+
+#: verified-downloads.php:1066 verified-downloads.php:1140
+msgid "Disabling..."
+msgstr ""
+
+#: verified-downloads.php:1066 verified-downloads.php:1139
+msgid "Disable"
+msgstr ""
+
+#: verified-downloads.php:1129
+msgid "Requested record not found."
+msgstr ""
+
+#: verified-downloads.php:1138
+msgid "Download link successfully enabled."
+msgstr ""
+
+#: verified-downloads.php:1147
+msgid "Download link successfully disabled."
+msgstr ""
+
+#: verified-downloads.php:1176 verified-downloads.php:1318
+msgid "Record not found."
+msgstr ""
+
+#: verified-downloads.php:1183 verified-downloads.php:1325
+msgid "Record successfully removed."
+msgstr ""
+
+#: verified-downloads.php:1206
+msgid "Verified Downloads - Blacklist"
+msgstr ""
+
+#: verified-downloads.php:1208
+msgid "Username or Item Purchase Code"
+msgstr ""
+
+#: verified-downloads.php:1209
+msgid "Add"
+msgstr ""
+
+#: verified-downloads.php:1214
+msgid "Username"
+msgstr ""
+
+#: verified-downloads.php:1224
+msgid "All Item Purchase Codes"
+msgstr ""
+
+#: verified-downloads.php:1258
+msgid "Set your Envato API Token on Settings page."
+msgstr ""
+
+#: verified-downloads.php:1265
+msgid "Blacklist item can not be empty."
+msgstr ""
+
+#: verified-downloads.php:1282
+msgid "Username or Item Purchase Code not found."
+msgstr ""
+
+#: verified-downloads.php:1295
+msgid "Item successfully saved."
+msgstr ""
+
+#: verified-downloads.php:1337
+msgid "Verified Downloads - How To Use"
+msgstr ""
+
+#: verified-downloads.php:1391
+#, php-format
+msgid ""
+"Important! Make sure that you properly embedded script into your website, as "
+"it is said on %sHow To Use%s page."
+msgstr ""
+
+#: verified-downloads.php:1407
+msgid "Gutenberg Block"
+msgstr ""
+
+#: verified-downloads.php:1409
+msgid ""
+"In case of using Gutenberg content editor you can add the button as a "
+"standard Gutenberg Block. Find it under Widgets category."
+msgstr ""
+
+#: verified-downloads.php:1419
+msgid "PHP"
+msgstr ""
+
+#: verified-downloads.php:1421
+msgid "Use the following PHP-code to embed the button into theme files:"
+msgstr ""
+
+#: verified-downloads.php:1426
+msgid "Widget"
+msgstr ""
+
+#: verified-downloads.php:1428
+msgid ""
+"Go to Appearance >> Widgets and drag the Verified Downloads widget into the "
+"desired sidebar. You will be able to select this file from the dropdown "
+"options while configuring the widget."
+msgstr ""
+
+#: verified-downloads.php:1432
+msgid "Remote use"
+msgstr ""
+
+#: verified-downloads.php:1434
+msgid ""
+"Use the form with any non-WordPress pages of the site or with 3rd party "
+"sites. How to do it?"
+msgstr ""
+
+#: verified-downloads.php:1437
+#, php-format
+msgid ""
+"Make sure that non-WordPress page has %sDOCTYPE%s. If not, add the following "
+"line as a first line of HTML-document:"
+msgstr ""
+
+#: verified-downloads.php:1441
+#, php-format
+msgid ""
+"Make sure that website loads jQuery version 1.9 or higher. If not, add the "
+"following line into %shead%s section of HTML-document:"
+msgstr ""
+
+#: verified-downloads.php:1445
+#, php-format
+msgid ""
+"Copy the following JS-snippet and paste it into HTML-document. You need "
+"paste it at the end of %sbody%s section (above closing %s</body>%s tag)."
+msgstr ""
+
+#: verified-downloads.php:1447
+msgid ""
+"PS: You need do it one time only, even if you use several buttons on the "
+"same page."
+msgstr ""
+
+#: verified-downloads.php:1450
+msgid ""
+"Use the following HTML-code to embed the form into HTML-document as a button:"
+msgstr ""
+
+#: verified-downloads.php:1497 verified-downloads.php:1501
+#: verified-downloads.php:1504 verified-downloads.php:1507
+msgid "Invalid download link."
+msgstr ""
+
+#: verified-downloads.php:1508
+msgid "Download link expired."
+msgstr ""
+
+#: verified-downloads.php:1521 verified-downloads.php:1529
+#: verified-downloads.php:1571 verified-downloads.php:1597
+#: verified-downloads.php:1639
+msgid "File does not exist."
+msgstr ""
+
+#: verified-downloads.php:1691
+msgid "Cross-domain calls are not allowed."
+msgstr ""
+
+#: verified-downloads.php:1723
+msgid "Item Purchase Code..."
+msgstr ""
+
+#: verified-downloads.php:1725
+msgid "Where is my Item Purchase Code?"
+msgstr ""
+
+#: verified-downloads.php:1744
+msgid "Sending..."
+msgstr ""
+
+#: verified-downloads.php:1770
+msgid "This parameter is missing."
+msgstr ""
+
+#: verified-downloads.php:1783
+msgid "This file is not available."
+msgstr ""
+
+#: verified-downloads.php:1792 verified-downloads.php:1795
+#: verified-downloads.php:1803 verified-downloads.php:1805
+#: verified-downloads.php:1807 verified-downloads.php:1810
+#: verified-downloads.php:1814
+msgid "Invalid Item Purchase Code."
+msgstr ""
+
+#: verified-downloads.php:1798
+msgid "You must agree with the Terms & Conditions."
+msgstr ""
+
+#: widget.php:5
+msgid "Verified Downloads"
+msgstr ""
+
+#: widget.php:50
+msgid "Active files"
+msgstr ""
+
+#: widget.php:51
+msgid "Inactive files"
+msgstr ""
+
+#: widget.php:65
+msgid "Create at least one file."
+msgstr ""
+
+#: widget.php:70
+msgid "Top margin"
+msgstr ""
+
+#: widget.php:71 widget.php:73 widget.php:75 widget.php:77
+msgid "px"
+msgstr ""
+
+#: widget.php:72
+msgid "Bottom margin"
+msgstr ""
+
+#: widget.php:74
+msgid "Left margin"
+msgstr ""
+
+#: widget.php:76
+msgid "Right margin"
+msgstr ""

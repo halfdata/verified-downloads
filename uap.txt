@@ -1,0 +1,1 @@
+{"slug":"verified-downloads","uap":1,"version":"2.03","file":"verified-downloads.php","name":"Verified Downloads","description":"The plugin easily allows you to distribute digital content among your Envato customers.","icon":"fas fa-code"}
